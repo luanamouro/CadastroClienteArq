@@ -7,7 +7,7 @@ class Cadastro
     int vmetragem = 0;
     double vexec = 0;
     bool exec = false;
-   
+
 
     public Cadastro()
     {
@@ -45,39 +45,30 @@ class Cadastro
                 break;
         }
 
-        bool exec1() { 
-
-
-        if (exec == false)
-        {
-            exec = true;
-
-
-        } }
-
+        
         if (valorproj > 3000 && vmetragem > 50)
         {
             vexec = 4000;
             Console.WriteLine("Valor sugerido R${0}/mes", vexec);
         }
         else
-            {
-                vexec = 3000;
-                Console.WriteLine("Valor sugerido R${0}/mes", vexec);
-            }
-
+        {
+            vexec = 3000;
+            Console.WriteLine("Valor sugerido R${0}/mes", vexec);
         }
 
+    }
 
 
 
-double valorproj = 0;
-class Program
-{
-    public static void Main(string[] args)
+
+
+    class Program
     {
+        public static void Main(string[] args)
+        {
             Cadastro Cliente1 = new Cadastro();
-        
+
             Console.WriteLine(" Insira a metragem (m2):\n");
             double metragem = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Metragem:{metragem}");
@@ -89,13 +80,12 @@ class Program
             "3- Projeto Social");
             int perfil = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Foi aceito execução de obra?");
+            Console.WriteLine("Foi aceito execução de obra? Responda 'true' ou 'false'");
             bool exec1 = Convert.ToBoolean(Console.ReadLine());
-            if(exec1=true && valorproj > 3000 && )
 
-        
+
+
+        }
     }
 }
-
-
 

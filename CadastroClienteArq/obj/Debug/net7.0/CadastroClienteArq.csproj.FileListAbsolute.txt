@@ -1,0 +1,15 @@
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/obj/Debug/net7.0/CadastroClienteArq.csproj.AssemblyReference.cache
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/obj/Debug/net7.0/CadastroClienteArq.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/obj/Debug/net7.0/CadastroClienteArq.AssemblyInfoInputs.cache
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/obj/Debug/net7.0/CadastroClienteArq.AssemblyInfo.cs
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/obj/Debug/net7.0/CadastroClienteArq.csproj.CoreCompileInputs.cache
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/bin/Debug/net7.0/CadastroClienteArq
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/bin/Debug/net7.0/CadastroClienteArq.deps.json
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/bin/Debug/net7.0/CadastroClienteArq.runtimeconfig.json
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/bin/Debug/net7.0/CadastroClienteArq.dll
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/bin/Debug/net7.0/CadastroClienteArq.pdb
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/obj/Debug/net7.0/CadastroClienteArq.dll
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/obj/Debug/net7.0/refint/CadastroClienteArq.dll
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/obj/Debug/net7.0/CadastroClienteArq.pdb
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/obj/Debug/net7.0/CadastroClienteArq.genruntimeconfig.cache
+/Users/luanamouro/Projects/CadastroClienteArq/CadastroClienteArq/obj/Debug/net7.0/ref/CadastroClienteArq.dll
