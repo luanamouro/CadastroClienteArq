@@ -71,7 +71,7 @@ class Cadastro
 
 
 
-
+double valorproj = 0;
 class Program
 {
     public static void Main(string[] args)
@@ -79,13 +79,19 @@ class Program
             Cadastro Cliente1 = new Cadastro();
         
             Console.WriteLine(" Insira a metragem (m2):\n");
+            double metragem = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Metragem:{metragem}");
 
 
-        Console.WriteLine(" Escolha uma das opções de projeto:\n" +
-        "1- Alto Padrão\n" +
-        "2- Classe Média\n" +
-        "3- Projeto Social");
-        int perfil = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(" Escolha uma das opções de projeto:\n" +
+            "1- Alto Padrão\n" +
+            "2- Classe Média\n" +
+            "3- Projeto Social");
+            int perfil = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Foi aceito execução de obra?");
+            bool exec1 = Convert.ToBoolean(Console.ReadLine());
+            if(exec1=true && valorproj > 3000 && )
 
         
     }
