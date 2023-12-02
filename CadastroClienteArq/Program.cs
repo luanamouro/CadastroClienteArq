@@ -9,34 +9,38 @@ class Cadastro
     bool exec = false;
 
 
-    public Cadastro()
+    public Cadastro(double metragem,int perfil, bool exec)
     {
-        if (metragem > 100)
+        this.metragem = metragem;
+        this.perfil = perfil;
+        this.exec = exec;
+
+        if (this.metragem > 100)
         {
             Console.WriteLine("Aceite parcerias!");
 
         };
 
-        switch (perfil)
+        switch (this.perfil)
         {
             case 1:
-                Console.WriteLine("Digite a metragem (m2) do imóvel.\n");
-                metragem = Convert.ToDouble(Console.ReadLine());
-                valorproj = metragem * 100;
+                //Console.WriteLine("Digite a metragem (m2) do imóvel.\n");
+               // metragem = Convert.ToDouble(Console.ReadLine());
+                valorproj = this.metragem * 100;
                 Console.WriteLine("Perfil 1 - Alto Padrão: Projeto em R$ {0}", valorproj);
                 break;
 
             case 2:
-                Console.WriteLine("Digite a metragem (m2) do imóvel.\n");
-                metragem = Convert.ToDouble(Console.ReadLine());
-                valorproj = metragem * 50;
+                //Console.WriteLine("Digite a metragem (m2) do imóvel.\n");
+                //metragem = Convert.ToDouble(Console.ReadLine());
+                valorproj = this.metragem * 50;
                 Console.WriteLine("Perfil 2 - Classe Média: Projeto em R$ {0}", valorproj);
                 break;
 
             case 3:
-                Console.WriteLine("Digite a metragem (m2) do imóvel.\n");
-                metragem = Convert.ToDouble(Console.ReadLine());
-                valorproj = metragem * 40;
+                //Console.WriteLine("Digite a metragem (m2) do imóvel.\n");
+               // metragem = Convert.ToDouble(Console.ReadLine());
+                valorproj = this.metragem * 40;
                 Console.WriteLine("Perfil 3 - Projeto Social: Projeto em R$ {0}", valorproj);
                 break;
 
@@ -46,15 +50,15 @@ class Cadastro
         }
 
         
-        if (valorproj > 3000 && vmetragem > 50)
+        if (valorproj > 3000 && this.metragem > 50)
         {
             vexec = 4000;
-            Console.WriteLine("Valor sugerido R${0}/mes", vexec);
+            Console.WriteLine("Valor sugerido para obra R${0}/mes", vexec);
         }
         else
         {
             vexec = 3000;
-            Console.WriteLine("Valor sugerido R${0}/mes", vexec);
+            Console.WriteLine("Valor sugerido para obra R${0}/mes", vexec);
         }
 
     }
@@ -66,12 +70,10 @@ class Cadastro
     class Program
     {
         public static void Main(string[] args)
-        {
-            Cadastro Cliente1 = new Cadastro();
-
+        { 
             Console.WriteLine(" Insira a metragem (m2):\n");
             double metragem = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Metragem:{metragem}");
+            Console.WriteLine($"Metragem:{metragem}");
 
 
             Console.WriteLine(" Escolha uma das opções de projeto:\n" +
@@ -81,10 +83,10 @@ class Cadastro
             int perfil = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Foi aceito execução de obra? Responda 'true' ou 'false'");
-            bool exec1 = Convert.ToBoolean(Console.ReadLine());
+            bool exec = Convert.ToBoolean(Console.ReadLine());
 
 
-
+            Cadastro Cliente1 = new Cadastro(metragem, perfil, exec);
         }
     }
 }
