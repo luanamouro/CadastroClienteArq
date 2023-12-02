@@ -24,22 +24,19 @@ class Cadastro
         switch (this.perfil)
         {
             case 1:
-                //Console.WriteLine("Digite a metragem (m2) do imóvel.\n");
-               // metragem = Convert.ToDouble(Console.ReadLine());
+              
                 valorproj = this.metragem * 100;
                 Console.WriteLine("Perfil 1 - Alto Padrão: Projeto em R$ {0}", valorproj);
                 break;
 
             case 2:
-                //Console.WriteLine("Digite a metragem (m2) do imóvel.\n");
-                //metragem = Convert.ToDouble(Console.ReadLine());
+                
                 valorproj = this.metragem * 50;
                 Console.WriteLine("Perfil 2 - Classe Média: Projeto em R$ {0}", valorproj);
                 break;
 
             case 3:
-                //Console.WriteLine("Digite a metragem (m2) do imóvel.\n");
-               // metragem = Convert.ToDouble(Console.ReadLine());
+
                 valorproj = this.metragem * 40;
                 Console.WriteLine("Perfil 3 - Projeto Social: Projeto em R$ {0}", valorproj);
                 break;
